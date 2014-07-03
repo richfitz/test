@@ -1,0 +1,11 @@
+Package: testing
+Title: Not a real package
+Version: 0.1
+Authors@R: "Rich FitzJohn <rich.fitzjohn@gmail.com> [aut, cre]"
+Description: This package does nothing, but exists to give our testing
+    box a workout.
+Depends:
+    R (>= 3.1.0)
+License: GPL-2
+LazyData: true
+Suggests: testthat
