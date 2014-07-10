@@ -1,4 +1,4 @@
-image: richfitz/rlang
+image: drone/rlang
 script:
-  - sudo travis_tool.sh install_deps
-  - travis_tool.sh run_tests
+  - sudo travis-tool.sh install_deps
+  - travis-tool.sh run_tests
